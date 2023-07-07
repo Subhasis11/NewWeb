@@ -1,7 +1,7 @@
 
 node('built-in') {
     stage('ContiniousDownload'){
-        git 'https://github.com/Subhasis11/Maven.git'
+        git 'https://github.com/Subhasis11/NewWeb.git'
     }
     stage('ContiniousBuild'){
         sh 'mvn package'
